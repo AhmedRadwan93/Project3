@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 my_robot:pgm_map_creator:teleop_twist_keyboard
 -DCATKIN_DEVEL_PREFIX=/home/workspace/pro/devel -DCMAKE_INSTALL_PREFIX=/home/workspace/pro/install -G Unix Makefiles
+=======
+my_robot:pgm_map_creator
+-DCATKIN_DEVEL_PREFIX=/mnt/c/Users/ahmed/Documents/project3/pro/devel -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/ahmed/Documents/project3/pro/install -G Unix Makefiles
+>>>>>>> 1beb99805902abd62b36c075c7aa003213da5421

@@ -6,11 +6,17 @@
     <arg name="map_file"   default="$(find my_robot)/maps/map.yaml"/>
     <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
 
+<<<<<<< HEAD
 
   <!-- AMCL Node -->
   <node name="amcl" pkg="amcl" type="amcl" output="screen">
 
 
+=======
+  <!-- AMCL Node -->
+  <node name="amcl" pkg="amcl" type="amcl" output="screen">
+
+>>>>>>> 1beb99805902abd62b36c075c7aa003213da5421
     <param name="odom_frame_id" value="odom"/>
     <param name="odom_model_type" value="diff-corrected"/>
     <param name="base_frame_id" value="robot_footprint"/>
